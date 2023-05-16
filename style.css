@@ -67,8 +67,10 @@ nav li{
 }
 
 nav li a {
+    display: inline-block;
     color: white;
     text-decoration: none;
+    padding: 32px;
 }
 
 .conteudo {

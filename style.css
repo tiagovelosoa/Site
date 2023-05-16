@@ -38,6 +38,9 @@ body{
     border-radius: 10px;
 }
 
+nav li{
+    display: inline-block;
+}
 .dropdown-menu {
     position: absolute;
     box-shadow: 0 0 2px black;

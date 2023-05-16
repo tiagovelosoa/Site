@@ -41,11 +41,22 @@ body{
 nav li{
     display: inline-block;
 }
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 32px;
+    }
+
+nav li a:hover {
+    background-color:red;   
+}
+
 .dropdown-menu {
     position: absolute;
     box-shadow: 0 0 2px black;
     display: none;
- 
 }
 
 .dropdown-menu a{
@@ -57,15 +68,6 @@ nav li{
     display:block;
 }
 
-nav li a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 32px;
-    }
-nav li a:hover {
-    color:red;   
-}
 
 .conteudo {
     margin-bottom: 20px;

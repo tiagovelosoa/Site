@@ -44,26 +44,17 @@ nav li{
 .dropdown-menu {
     position: absolute;
     box-shadow: 0 0 2px black;
+    display: none;
  
 }
 
 .dropdown-menu a{
     display: block;
     color: black;
-    font-family: 'Sarala', sans-serif;
-    color: #fff2e7;
-    font-weight: 400;
-    font-size: 18px;
 }
 
 .dropdown:hover .dropdown-menu{
     display:block;
-    background-color: #333;
-    font-family: 'Sarala', sans-serif;
-    color: #fff;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
 }
 
 nav li a {

@@ -27,10 +27,7 @@ body{
 .cabecalho-menu {
     display: flex;
     gap: 32px;
-    font-family: 'Sarala', sans-serif;
-    color: #fff2e7;
-    font-weight: 400;
-    font-size: 18px;
+  
 }
 
 .cabecalho-menu-item:hover{
@@ -50,6 +47,10 @@ body{
 .dropdown-menu a{
     display: block;
     color: black;
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .dropdown:hover .dropdown-menu{

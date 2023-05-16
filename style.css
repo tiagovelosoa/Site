@@ -63,6 +63,10 @@ body{
     border-radius: 10px;
 }
 
+nav li a {
+    color: white;
+    text-decoration: none;
+}
 
 .conteudo {
     margin-bottom: 20px;

@@ -44,6 +44,21 @@ body{
     border-radius: 10px;
 }
 
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display:none;
+}
+
+.dropdown-menu a{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+
+
 .conteudo {
     margin-bottom: 20px;
     border-top: 0.4px solid #fff2e7;
@@ -135,18 +150,4 @@ body{
     margin: 0 auto;
 }
 
-.dropdown-menu {
-    position: absolute;
-    box-shadow: 0 0 2px black;
-    display:none;
-}
-
-.dropdown-menu a{
-    display: block;
-    color: wthite;
-}
-
-.dropdown:hover .dropdown-menu{
-    display:block;
-}
 
